@@ -8,3 +8,5 @@ thì ẩn dấu nó đi.Việc trừu tượng hóa ta có thể trừu tượng
  -    +1 là overload ,có nghĩa là nạp chồng phương thức .tức là các phương thức cùng tên nhưng khác tham số truyền vào,cùng tham số khác kiểu dữ liệu,củng như khác thứ tự kiểu dữ liệu.Hàm tạo củng có thể được nạp chồng.Đây người ta gọi là đa hình lúc biên dich.
  -    +1 là override ,có nghĩa là ghi đè các phương thức thức của lớp cha.Nó cùng đối số ,cùng kiểu trả về.Chú ý ta ko thể ghi đè nếu phương thức đó là final vs abstract.Đây người ta gọi nó là đa hình lúc runtime.Tức là khi chương trình chạy đa hình mới được chay.
 ## So sánh giữa abstract vs interface:
+ ### Interface:
+ - Java:Với jdk<7 về trước 
