@@ -13,6 +13,8 @@ thì ẩn dấu nó đi.Việc trừu tượng hóa ta có thể trừu tượng
  - Đối với Java7 chỉ khai báo hằng số với phương thức trừu tượng.Vấn đề xảy ra là khi chúng ta có nhiều đối tượng cùng triển khai 1 phương thức xữ lý cùng kết quả giống nhau , vậy rõ ràng lặp lại code,để giải quyết thì ta cần sử dụng thằng 1 abstract thực hiện cùng chức năng ,sau cho đó cho tất cả đối tượng cùng triển khai lớp abstract đó thì lúc đó sẽ giải quyết được vấn đề.Nhưng nhớ rằng java chỉ cho phép đơn kế thừa ,vậy rõ ràng đã bất cập.Từ đó thằng java8 ra đời.
  - Java 8 ra đời có cái gì:Ngoài các hắng số và phương thức trừu tượng thì chúng ta cần có thêm phương thức mặc định và phương thức static.Vậy chúng ta sẽ quay trở lại xem cái lúc đầu rõ ràng ,đây là 1 interface nhiều đối tượng củng có thể triển khai chúng và nhiều đối tượng đó có cùng 1 phương thức thì lúc đó ta thằng phương thức default được sử dụng đến.
 Và tiếp tục bất cập ở đây là gì ,là lúc mà khối code xữ lý thằng default quá dài thì ta cần tách ra các hàm nhưng phải public vậy lại là điều chúng ta ko mong muốn.Vậy lúc đó thằng java 9 ra đời.
+#### Kotlin:
+- Trong kotlin thì interface không lưu trử trạng thái của đối tượng,có thuộc tính đối tượng,phương thức trừu tượng của đối tượng,và phương thức mặc định.
 ### Abstract:
 #### Java:
 #### Kotlin:
